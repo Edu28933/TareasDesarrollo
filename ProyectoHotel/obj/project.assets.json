@@ -6590,24 +6590,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eduar\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Marleny\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eduar\\source\\repos\\Tareas\\ProyectoHotel\\ProyectoHotel.csproj",
+      "projectUniqueName": "C:\\Users\\Marleny\\Source\\Repos\\TareasDesarrollo\\ProyectoHotel\\ProyectoHotel.csproj",
       "projectName": "ProyectoHotel",
-      "projectPath": "C:\\Users\\eduar\\source\\repos\\Tareas\\ProyectoHotel\\ProyectoHotel.csproj",
-      "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eduar\\source\\repos\\Tareas\\ProyectoHotel\\obj\\",
+      "projectPath": "C:\\Users\\Marleny\\Source\\Repos\\TareasDesarrollo\\ProyectoHotel\\ProyectoHotel.csproj",
+      "packagesPath": "C:\\Users\\Marleny\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Marleny\\Source\\Repos\\TareasDesarrollo\\ProyectoHotel\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Marleny\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6633,8 +6628,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -6668,7 +6662,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
