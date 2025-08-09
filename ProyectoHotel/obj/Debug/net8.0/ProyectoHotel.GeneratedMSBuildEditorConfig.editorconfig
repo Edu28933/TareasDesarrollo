@@ -26,12 +26,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Marleny\source\repos\TareasDesarrollo\ProyectoHotel
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Clientes/Guardar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcR3VhcmRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Clientes/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcTGlzdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Horarios/Guardar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NcR3VhcmRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Horarios/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NcTGlzdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Servicios/Guardar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXEd1YXJkYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Servicios/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXExpc3Rhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Shared/Error.cshtml]
