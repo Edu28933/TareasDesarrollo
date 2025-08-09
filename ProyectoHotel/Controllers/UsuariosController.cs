@@ -18,5 +18,8 @@ namespace ProyectoHotel.Controllers
             return View(oListaUsuarios);
         }
 
+   
+
+
     }
 }
