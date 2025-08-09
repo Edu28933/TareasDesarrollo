@@ -1,0 +1,36 @@
+## Build results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Compilados
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+
+# Otros
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# Resharper / Rider
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
