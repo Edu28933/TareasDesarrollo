@@ -32,6 +32,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FqYVxMaXN0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/eduar/source/repos/Tareas/ProyectoHotel/Views/Clientes/Guardar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcR3VhcmRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/source/repos/Tareas/ProyectoHotel/Views/Clientes/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcTGlzdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/eduar/source/repos/Tareas/ProyectoHotel/Views/Empleados/Listar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXExpc3Rhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +50,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/eduar/source/repos/Tareas/ProyectoHotel/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/source/repos/Tareas/ProyectoHotel/Views/Horarios/Guardar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NcR3VhcmRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/source/repos/Tareas/ProyectoHotel/Views/Horarios/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9yYXJpb3NcTGlzdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/source/repos/Tareas/ProyectoHotel/Views/Servicios/Guardar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXEd1YXJkYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eduar/source/repos/Tareas/ProyectoHotel/Views/Servicios/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXExpc3Rhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/eduar/source/repos/Tareas/ProyectoHotel/Views/Shared/Error.cshtml]

@@ -43,7 +43,6 @@ namespace ProyectoHotel.Controllers
         }
 
 
-        // Muestra el formulario llamador Guardar
         public IActionResult Modificar(int IdEmpleado)
         {
             var oEmpleados = _EmpleadosData.MtdBuscarEmpleados(IdEmpleado);
