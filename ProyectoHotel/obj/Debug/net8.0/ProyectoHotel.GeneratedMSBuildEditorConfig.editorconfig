@@ -26,12 +26,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Marleny\source\repos\TareasDesarrollo\ProyectoHotel
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Caja/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FqYVxMaXN0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Clientes/Guardar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcR3VhcmRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Clientes/Listar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcTGlzdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Empleados/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXExpc3Rhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Marleny/source/repos/TareasDesarrollo/ProyectoHotel/Views/Home/Index.cshtml]
