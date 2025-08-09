@@ -1,0 +1,102 @@
+﻿@model IEnumerable<ProyectoHotel.Models.CajaModel>
+
+@{
+    ViewData["Title"] = "Listar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Listar</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCaja)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPagoPlanilla)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPago)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCompra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaIngreso)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaSalida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalPagoPlanilla)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalPagos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalCompras)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GananciaTotal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCaja)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdPagoPlanilla)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdPago)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCompra)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaIngreso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaSalida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalPagoPlanilla)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalPagos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalCompras)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GananciaTotal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -244,6 +244,7 @@ C:\Users\eduar\source\repos\Tareas\ProyectoHotel\obj\Debug\net8.0\ProyectoHotel.
 C:\Users\eduar\source\repos\Tareas\ProyectoHotel\obj\Debug\net8.0\ProyectoHotel.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\eduar\source\repos\Tareas\ProyectoHotel\obj\Debug\net8.0\ProyectoHotel.RazorAssemblyInfo.cache
 C:\Users\eduar\source\repos\Tareas\ProyectoHotel\obj\Debug\net8.0\ProyectoHotel.RazorAssemblyInfo.cs
+C:\Users\eduar\source\repos\Tareas\ProyectoHotel\obj\Debug\net8.0\ProyectoHotel.sourcelink.json
 C:\Users\eduar\source\repos\Tareas\ProyectoHotel\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\eduar\source\repos\Tareas\ProyectoHotel\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\eduar\source\repos\Tareas\ProyectoHotel\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
