@@ -14,7 +14,7 @@
         public int Cui { get; set; }
         public string? Nacionalidad { get; set; }
         public DateTime FechaIngreso { get; set; }
-        public DateTime FechaSalida { get; set; }
+        public DateTime? FechaSalida { get; set; }
         public string? Estado { get; set; }
 
     }
