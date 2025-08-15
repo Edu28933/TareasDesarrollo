@@ -38,6 +38,53 @@ namespace ProyectoHotel.Controllers
             }
         }
 
+        // Muestra el formulario llamador Modificar
+        public IActionResult Modificar(int IdHorario)
+        {
+            var oServicio = _HorariosData.MtdBuscarHorarios(IdHorario);
+            return View(oServicio);
+
+        }
+
+        // Almacena los datos del formulario Modificar
+        [HttpPost]
+        public IActionResult Modificar(HorariosModel oHorario) //Cambiar
+        {
+            var respuesta = _HorariosData.MtdEditarHorarios(oHorario); //Cambiar
+
+            if (respuesta == true)
+            {
+                return RedirectToAction("Listar");
+            }
+            else
+            {
+                return View();
+            }
+        }
+
+
+        // Muestra el formulario llamador Eliminar
+        public IActionResult Eliminar(int IdHorario)
+        {
+            var oHorarios = _HorariosData.MtdBuscarHorarios(IdHorario);
+            return View(oHorarios);
+        }
+
+        // Envia los datos del formulario Eliminar
+        [HttpPost]
+        public IActionResult Eliminar(HorariosModel oHorario)
+        {
+            var respuesta = _HorariosData.MtdEliminarHorarios(oHorario.IdHorario);
+
+            if (respuesta == true)
+            {
+                return RedirectToAction("Listar");
+            }
+            else
+            {
+                return View();
+            }
+        }
 
     }
 }
