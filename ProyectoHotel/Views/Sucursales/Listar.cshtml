@@ -56,10 +56,12 @@
                 @Html.DisplayFor(modelItem => item.Estado)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
+
+                    @Html.ActionLink("Modificar", "Modificar", new { IdSucursal = item.IdSucursal })
+
+
+                    @Html.ActionLink("Eliminar", "Eliminar", new { IdSucursal = item.IdSucursal })
+                </td>
         </tr>
 }
     </tbody>

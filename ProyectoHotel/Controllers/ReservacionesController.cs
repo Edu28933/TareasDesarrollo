@@ -43,5 +43,52 @@ using ProyectoHotel.Models;
             }
         }
 
+        // Muestra el formulario para modificar una reservación
+        public IActionResult Modificar(int IdReservacion)
+        {
+            var oReservaciones = _ReservacionesData.MtdBuscarReservaciones(IdReservacion);
+            return View(oReservaciones);
+        }
+
+        // Almacena los datos del formulario Modificar
+        [HttpPost]
+        public IActionResult Modificar(ReservacionesModel oReservaciones)
+        {
+            var respuesta = _ReservacionesData.MtdEditarReservaciones(oReservaciones);
+
+            if (respuesta)
+            {
+                return RedirectToAction("Listar");
+            }
+            else
+            {
+                return View(oReservaciones);
+            }
+        }
+
+        // Muestra el formulario para eliminar una reservación
+        public IActionResult Eliminar(int IdReservacion)
+        {
+            var oReservaciones = _ReservacionesData.MtdBuscarReservaciones(IdReservacion);
+            return View(oReservaciones);
+        }
+
+        // Envía los datos del formulario Eliminar
+        [HttpPost]
+        public IActionResult Eliminar(ReservacionesModel oReservaciones)
+        {
+            var respuesta = _ReservacionesData.MtdEliminarReservaciones(oReservaciones.IdReservacion);
+
+            if (respuesta)
+            {
+                return RedirectToAction("Listar");
+            }
+            else
+            {
+                return View(oReservaciones);
+            }
+        }
     }
 }
+
+    

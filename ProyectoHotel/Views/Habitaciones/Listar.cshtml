@@ -62,10 +62,11 @@
                 @Html.DisplayFor(modelItem => item.PrecioHabitacion)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
+                    @Html.ActionLink("Modificar", "Modificar", new { IdHabitacion = item.IdHabitacion }) |
+     
+
+                    @Html.ActionLink("Eliminar", "Eliminar", new { IdHabitacion = item.IdHabitacion })
+                </td>
         </tr>
 }
     </tbody>

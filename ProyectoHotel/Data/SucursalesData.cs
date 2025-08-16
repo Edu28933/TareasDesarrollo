@@ -80,4 +80,111 @@ using System.Data;
         return respuesta;
     }
 
+
+    // Metodo que actualiza datos
+    public bool MtdEditarSucursales(SucursalesModel oSucursales)
+    {
+        bool respuesta = false;
+
+        try
+        {
+            var conn = new Conexion();
+
+            using (var sqlConnection = new SqlConnection(conn.GetConnectionString()))
+            {
+                sqlConnection.Open();
+                SqlCommand cmd = new SqlCommand("usp_Sucursales_Editar", sqlConnection);
+                cmd.Parameters.AddWithValue("@IdSucursal", oSucursales.IdSucursal); // ✅ Corregido aquí
+                cmd.Parameters.AddWithValue("@Nombre", oSucursales.Nombre);
+                cmd.Parameters.AddWithValue("@Departamento", oSucursales.Departamento);
+                cmd.Parameters.AddWithValue("@Ubicacion", oSucursales.Ubicacion);
+                cmd.Parameters.AddWithValue("@Capacidad", oSucursales.Capacidad);
+                cmd.Parameters.AddWithValue("@Estado", oSucursales.Estado);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.ExecuteNonQuery();
+            }
+            respuesta = true;
+        }
+        catch (Exception ex)
+        {
+            string error = ex.Message;
+            respuesta = false;
+        }
+
+        return respuesta;
+    }
+
+
+    // Método que busca un dato por su código
+    public SucursalesModel MtdBuscarSucursales(int IdSucursal)
+    {
+        var oSucursales = new SucursalesModel();
+
+        try
+        {
+            var conn = new Conexion();
+
+            using (var sqlConnection = new SqlConnection(conn.GetConnectionString()))
+            {
+                sqlConnection.Open();
+                using (var cmd = new SqlCommand("usp_Sucursales_Buscar", sqlConnection))
+                {
+                    cmd.Parameters.AddWithValue("@IdSucursal", IdSucursal);
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    using (var dr = cmd.ExecuteReader())
+                    {
+                        if (dr.Read())
+                        {
+                            oSucursales.IdSucursal = Convert.ToInt32(dr["IdSucursal"]);
+                            oSucursales.Nombre = dr["Nombre"].ToString();
+                            oSucursales.Departamento = dr["Departamento"].ToString();
+                            oSucursales.Ubicacion = dr["Ubicacion"].ToString();
+                            oSucursales.Capacidad = Convert.ToInt32(dr["Capacidad"]);
+                            oSucursales.Estado = dr["Estado"].ToString();
+                       
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            string error = ex.Message;
+        }
+
+        return oSucursales;
+    }
+
+
+    // Metodo que elimina datos
+    public bool MtdEliminarSucursales(int IdSucursal)
+    {
+        bool respuesta = false;
+
+        try
+        {
+            var conn = new Conexion();
+
+            using (var sqlConnection = new SqlConnection(conn.GetConnectionString()))
+            {
+                sqlConnection.Open();
+                SqlCommand cmd = new SqlCommand("usp_Sucursales_Eliminar", sqlConnection); // ✅ Cambiado
+                cmd.Parameters.AddWithValue("@IdSucursal", IdSucursal); // ✅ Nombre coherente
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.ExecuteNonQuery();
+            }
+            respuesta = true;
+        }
+        catch (Exception ex)
+        {
+            string error = ex.Message;
+            respuesta = false;
+        }
+
+        return respuesta;
+    }
+
+
+
 }
